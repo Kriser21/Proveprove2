@@ -11,31 +11,66 @@ body {
 
 .App{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr auto;
   nav{
     grid-column: 2;
     justify-self: end;
     background-color: #2699FB;
+    position: relative;
+    ul{
+      list-style-type: none;
+    }
     a{
       text-decoration: none;
       color: #ffffff;
       padding: 14px 16px;
       display: block;
       text-align: center;
+      
+
     }}
   footer{
     grid-column:1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: #BCE0FD;
 
   }
-  p{
-    font-size: 10px;
-  }
-  span{
-    font-size: 10px;
-  }
+
   .media {
     display: grid;
+    grid-column: 2;
+    span{
+      font-size: 10px;
+    }
+    p{
+      font-size: 10px;
+    }
   
   }
+}
+.Home{
+  grid-column: 1;
+  grid-row: 1;
+  h3{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: #2699FB;
+   font-size: 25px;
+
+ 
+  }
+.billede{
+  height: 300px;
+  width: 1115px;
+}
+}
+
+.fab{
+  color: #ffffff;
+}
+.ikon{
+position: relative;
+bottom: 0;
 }

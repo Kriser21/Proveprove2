@@ -11,7 +11,10 @@ export default function Program() {
                <span>RUTER</span> 
               <span>TILMELDING </span> 
               <span>DISTANCER</span> 
+            </div>
 
+            <div>
+                
             </div>
 
 
