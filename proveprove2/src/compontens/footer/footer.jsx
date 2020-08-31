@@ -1,11 +1,22 @@
 import React from 'react';
 
-function Footer() {
-  return (
-    <div className="Footer">
-      <h3>Hej</h3>
-    </div>
-  );
-}
+export default function Program() {
+    return(
+        <footer>
+              
+            <div className="media">
 
-export default Footer;
+                <p>INFORMATION</p>
+                <span> OM RØRDAL RUN</span> 
+               <span>RUTER</span> 
+              <span>TILMELDING </span> 
+              <span>DISTANCER</span> 
+
+            </div>
+
+
+        </footer>
+
+    )
+};
+

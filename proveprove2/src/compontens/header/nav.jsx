@@ -5,9 +5,7 @@ import Home from '../page/Home';
 function Routertest() {
   return (
     <Router>
-
         <nav>
-
           <ul>
             <li className="list-inline-item">
               <Link to="/">OM RØRDAL RUN</Link>
@@ -26,6 +24,9 @@ function Routertest() {
               <Link to="/lineuptest">FORSIDE</Link>
             </li>
           </ul>
+
+          <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook "></i>
         </nav>
 
       <Route path="/" exact component={Home} />
