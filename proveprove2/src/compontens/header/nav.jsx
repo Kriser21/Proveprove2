@@ -1,12 +1,35 @@
 import React from 'react';
-import './App.css';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Home from '../page/Home';
 
-function App() {
+function Routertest() {
   return (
-    <div className="App">
-      
-    </div>
+    <Router>
+
+        <nav>
+
+          <ul>
+            <li className="list-inline-item">
+              <Link to="/">OM RØRDAL RUN</Link>
+            </li>
+  
+            <li className="list-inline-item">
+              <Link to="/camps">TILMELDING</Link>
+            </li>
+            <li className="list-inline-item">
+              <Link to="/praktisk">DISTANCER</Link>
+            </li>
+            <li className="list-inline-item">
+              <Link to="/login">LOGIN</Link>
+            </li>
+            <li className="list-inline-item">
+              <Link to="/lineuptest">FORSIDE</Link>
+            </li>
+          </ul>
+        </nav>
+
+      <Route path="/" exact component={Home} />
+    </Router>
   );
 }
-
-export default App;
+export default Routertest;

@@ -1,12 +1,11 @@
 import React from 'react';
-import './App.css';
 
-function App() {
+function Footer() {
   return (
-    <div className="App">
-      
+    <div className="Footer">
+      <h3>Hej</h3>
     </div>
   );
 }
 
-export default App;
+export default Footer;

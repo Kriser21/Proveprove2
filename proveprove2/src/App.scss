@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  nav{
+    grid-column: 2;
+    justify-self: end;
+    background-color: #2699FB;
+    a{
+      text-decoration: none;
+      color: #ffffff;
+      padding: 14px 16px;
+      display: block;
+      text-align: center;
+    }}
+  footer{
+    grid-column:1/3 ;
+  }
+}
