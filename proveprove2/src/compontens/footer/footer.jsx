@@ -13,8 +13,11 @@ export default function Program() {
               <span>DISTANCER</span> 
             </div>
 
-            <div>
-                
+            <div className="banana">
+            <p>KONTAKT OS</p>
+            <span>+45 35 67 90 87</span>
+            <span>ROERDALRUN@MAIL.COM</span>
+
             </div>
 
 
