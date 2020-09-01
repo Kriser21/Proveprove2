@@ -23,7 +23,7 @@ const Fetch = () =>{
     let Run =
     apiData&&
         apiData.items.slice(0, 3).map((run) =>{
-            let SliceDecription = run.description.substr(0,159)
+            let SliceDecription = run.description.substr(0,145)
         
             return(
               <>

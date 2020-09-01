@@ -1,13 +1,23 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Home from '../page/Home';
 
 function Routertest() {
+  const [test, setTest] = useState(true);
   return (
     <Router>
         <nav>
+
+        {test ? (
+          <h1 className="showError">
+            <button onClick={() => { console.log(setTest(false)); }}>click me</button>
+          </h1>
+        ) : (
+
           <ul>
-            <li className="list-inline-item">
+          <button onClick={() => { console.log(setTest(true)); }}>X</button>
+        
+          <li className="list-inline-item">
               <Link to="/omrødalrun">OM RØRDAL RUN</Link>
             </li>
   
@@ -23,7 +33,12 @@ function Routertest() {
             <li className="list-inline-item">
               <Link to="/">FORSIDE</Link>
             </li>
-          </ul>
+
+        </ul>
+      )}
+
+       
+         
 <div className="ikon">
           <i class="fab fa-instagram"></i>
         <i class="fab fa-facebook "></i>
