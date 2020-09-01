@@ -117,3 +117,25 @@ text-align-last: center;;
     width: 100%;
   }
 }
+
+.Distancer{
+  grid-column: 1;
+  grid-row: 1;
+  h3{
+    color: #2699FB;
+   font-size: 25px;
+   padding: 20px;
+  }
+  .billede{
+    height: 300px;
+    width: 100%;
+  }
+}
+
+.beskrivel{
+  p{
+    color: #2699FB;
+    font-size: 20px;
+    padding: 20px;
+  }
+}

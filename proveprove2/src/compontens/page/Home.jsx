@@ -30,8 +30,7 @@ const Fetch = () =>{
                 <div className="Run">
                 <p>{run.title}</p>
                 <p>{SliceDecription}</p>
-                
-                <a href="Tilmelding"><button>Tilmelding</button></a>
+                <a href="Tilmelding"><button>TILMELD</button></a>
                 </div>
               </>
                
@@ -69,7 +68,7 @@ export default function Home() {
         Duis aute irure dolor in reprehenderit in uienply. <br/>
         Ut enim ad minim veniam, quis nostrud exercitation <br/>
         ullamco poriti laboris <br/>
-        nisi ut aliquip ex ea commodo consequat. 
+        nisi ut aliquip ex ea commodo consequat. <br/>
 
          <button className="knap"> MERE INFO</button>
          </p>

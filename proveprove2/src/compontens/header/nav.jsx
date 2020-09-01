@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Home from '../page/Home';
 import Tilmelding from '../page/Tilmelding';
+import Distancer from '../page/Distancer';
 
 function Routertest() {
   const [test, setTest] = useState(true);
@@ -48,6 +49,7 @@ function Routertest() {
 
       <Route path="/" exact component={Home} />
       <Route path="/tilmelding" exact component={Tilmelding} />
+      <Route path="/distancer" exact component={Distancer} />
     </Router>
   );
 }
