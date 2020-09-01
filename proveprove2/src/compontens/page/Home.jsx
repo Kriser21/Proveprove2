@@ -30,7 +30,8 @@ const Fetch = () =>{
                 <div className="Run">
                 <p>{run.title}</p>
                 <p>{SliceDecription}</p>
-                <button>TILMELD</button>
+                
+                <a href="Tilmelding"><button>Tilmelding</button></a>
                 </div>
               </>
                
