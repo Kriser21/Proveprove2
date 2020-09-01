@@ -55,6 +55,7 @@ export default function Tilmelding() {
         <br />
         {errors.password && <span> {errors.password.message} </span>}
         <br />
+        
         <input type="submit" />
       </form>
 
