@@ -133,6 +133,8 @@ text-align-last: center;;
 }
 
 .beskrivel{
+  display: grid;
+
   p{
     color: #2699FB;
     font-size: 20px;
