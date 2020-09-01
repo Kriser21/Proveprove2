@@ -118,6 +118,19 @@ text-align-last: center;;
   }
 }
 
+.tilmeld{
+  p{
+    color: #2699FB;
+    font-size: 15px;
+    padding: 10px;
+  }
+  h3{
+    color: #2699FB;
+   font-size: 25px;
+   padding: 20px;
+   font-family: Georgia;
+  }
+}
 .Distancer{
   grid-column: 1;
   grid-row: 1;
@@ -133,11 +146,12 @@ text-align-last: center;;
 }
 
 .beskrivel{
-  display: grid;
-
+ background-color: #F1F9FF;
+ width: 45%;
+margin: 15px;
   p{
     color: #2699FB;
-    font-size: 20px;
+    font-size: 15px;
     padding: 20px;
   }
 }
