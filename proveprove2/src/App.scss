@@ -78,7 +78,7 @@ body {
   }
 .billede{
   height: 300px;
-  width: 1115px;
+  width: 100%;
 }
 }
 
@@ -93,7 +93,11 @@ text-align-last: center;;
 
 .Løb{
   display: grid;
+  padding: 10px;
+  margin: 10px;
   color: #2699FB;
+ grid-template-columns: 1fr 1fr ;
+
   h5{
     color: #2699FB;
     font-size: 20px;
@@ -103,4 +107,13 @@ text-align-last: center;;
 
 .knap{
   width: 100px;
+}
+
+.Tilmelding{
+  grid-column: 1;
+  grid-row: 1;
+  .billede{
+    height: 300px;
+    width: 100%;
+  }
 }

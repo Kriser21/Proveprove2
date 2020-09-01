@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Home from '../page/Home';
+import Tilmelding from '../page/Tilmelding';
 
 function Routertest() {
   const [test, setTest] = useState(true);
@@ -10,12 +11,12 @@ function Routertest() {
 
         {test ? (
           <h1 className="showError">
-            <button onClick={() => { console.log(setTest(false)); }}>click me</button>
+            <button onClick={() => { console.log(setTest(false)); }}><i class="fas fa-bars"></i></button>
           </h1>
         ) : (
 
           <ul>
-          <button onClick={() => { console.log(setTest(true)); }}>X</button>
+          <button onClick={() => { console.log(setTest(true)); }}><i class="fas fa-times"></i></button>
         
           <li className="list-inline-item">
               <Link to="/omrødalrun">OM RØRDAL RUN</Link>
@@ -46,6 +47,7 @@ function Routertest() {
         </nav>
 
       <Route path="/" exact component={Home} />
+      <Route path="/tilmelding" exact component={Tilmelding} />
     </Router>
   );
 }
