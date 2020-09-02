@@ -117,6 +117,15 @@ text-align-last: center;;
 .Tilmelding{
   grid-column: 1;
   grid-row: 1;
+  color: #2699FB;
+
+  input{
+    border-radius: 1em;
+    border-color: #BCE0FD;
+    background-color: #BCE0FD;
+    color: #2699FB;
+    margin: 2px;
+  }
   .billede{
     height: 300px;
     width: 100%;
@@ -160,3 +169,8 @@ margin: 15px;
     padding: 20px;
   }
 }
+
+// .form{
+//   display: grid;
+  
+// }

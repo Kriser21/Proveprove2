@@ -24,7 +24,7 @@ export default function Tilmelding() {
                 <p>Culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptartem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi ropeior architecto beatae vitae dicta sunt explicabo. Nemo eniem ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia laudantium.</p>
           </span>
 
-          <form onSubmit={handleSubmit(onSubmit)}>
+          <form className="form" onSubmit={handleSubmit(onSubmit)}>
 
 <label htmlFor="firstname">Nave</label> <br/>
 <input type="text" name="firstname" ref={register({
@@ -149,10 +149,9 @@ export default function Tilmelding() {
 
 
 
-        <label htmlFor="email">Email:</label> <br />
+        <label htmlFor="email">Email</label> <br />
         <input
           type="text"
-          placeholder="email"
           name="email"
           ref={register({
             required: 'Email is required',
@@ -247,19 +246,16 @@ export default function Tilmelding() {
       </select> <br/>
       {errors.valg && <span> {errors.valg.message}</span>} <br/>
 
-
-
-
-
-
-
-
       
-        <input type="submit" value="TILMELD"/>
+    <textarea rows="4" cols="50" name="comment" form="usrform">
+    
+      </textarea> <br/>
+
+    <input type="submit" value="TILMELD"/> <br/><br/>
 
 
-      </form>
-
+      </form> 
+  
 
     </div>
   );
