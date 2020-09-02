@@ -3,7 +3,6 @@ import { useForm } from 'react-hook-form';
 import Billede from '../img/COLOURBOX21174823.jpg';
 
 
-
 const onSubmit = (data) => {
 console.log('submit', data);
    
