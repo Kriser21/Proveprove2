@@ -69,8 +69,8 @@ export default function Home() {
         Ut enim ad minim veniam, quis nostrud exercitation <br/>
         ullamco poriti laboris <br/>
         nisi ut aliquip ex ea commodo consequat. <br/>
-
-         <button className="knap"> MERE INFO</button>
+ <br/>
+         <button className="knap"> MERE INFO</button> 
          </p>
          <p>
     <h5>Ruter</h5> <br/>
@@ -81,6 +81,7 @@ export default function Home() {
     vitae dicta sunt explicabo. Nemo eniem ipsam voluptatem quia voluptas <br/> 
     sit aspernatur aut odit aut fugit, sed quia laudantium. <br/> <br/>
     <div className="fetch">
+      
         <Fetch/>
         </div>
         </p>
