@@ -119,13 +119,6 @@ text-align-last: center;;
   grid-row: 1;
   color: #2699FB;
 
-  input{
-    border-radius: 1em;
-    border-color: #BCE0FD;
-    background-color: #BCE0FD;
-    color: #2699FB;
-    margin: 2px;
-  }
   .billede{
     height: 300px;
     width: 100%;
@@ -149,7 +142,7 @@ text-align-last: center;;
   grid-column: 1;
   grid-row: 1;
   h3{
-    color: #2699FB;
+    color: #BCE0FD;
    font-size: 25px;
    padding: 20px;
   }
@@ -170,7 +163,21 @@ margin: 15px;
   }
 }
 
-// .form{
-//   display: grid;
-  
-// }
+.form{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  input{
+    border-radius: 1em;
+    border-color: #BCE0FD;
+    background-color: #BCE0FD;
+    color: #2699FB;
+    margin: 2px; 
+    padding: 2px ;
+  }
+  select{
+    border-radius: 1em;
+    border-color: #BCE0FD;
+    color: #2699fb;
+  }
+}

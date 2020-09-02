@@ -19,9 +19,9 @@ function Routertest() {
           <ul>
           <button onClick={() => { console.log(setTest(true)); }}><i class="fas fa-times"></i></button>
         
-          <li className="list-inline-item">
+          {/* <li className="list-inline-item">
               <Link to="/omrødalrun">OM RØRDAL RUN</Link>
-            </li>
+            </li> */}
   
             <li className="list-inline-item">
               <Link to="/tilmelding">TILMELDING</Link>
