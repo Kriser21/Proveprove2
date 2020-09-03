@@ -6,6 +6,7 @@ import Distancer from '../page/Distancer';
 
 function Routertest() {
   const [test, setTest] = useState(true);
+  const [banana, setBanana] = useState(false);
   return (
     <Router>
         <nav>
@@ -19,9 +20,6 @@ function Routertest() {
           <ul>
           <button onClick={() => { console.log(setTest(true)); }}><i class="fas fa-times"></i></button>
         
-          {/* <li className="list-inline-item">
-              <Link to="/omrødalrun">OM RØRDAL RUN</Link>
-            </li> */}
   
             <li className="list-inline-item">
               <Link to="/tilmelding">TILMELDING</Link>
@@ -30,7 +28,22 @@ function Routertest() {
               <Link to="/distancer">DISTANCER</Link>
             </li>
             <li className="list-inline-item">
-              <Link to="/login">LOGIN</Link>
+
+
+            <p onClick= {() => {
+              setBanana(true)
+            }}>LOGIN</p>
+              {banana ? (
+          <>
+
+
+
+            <button onClick={() => { console.log(setBanana(false)); }}>X</button>
+          </>
+        ) : (
+          <>
+          </>
+        )}
             </li>
             <li className="list-inline-item">
               <Link to="/">FORSIDE</Link>

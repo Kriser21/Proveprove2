@@ -32,7 +32,21 @@ body {
     }
   a:Hover{
     background-color: powderblue;
+
   }
+
+  p{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 14px 16px;
+    display: block;
+    text-align: center;
+
+
+  }
+p:Hover{
+  background-color: powderblue;
+}
   }
 
   footer{
@@ -152,16 +166,33 @@ text-align-last: center;;
   }
 }
 
-.beskrivel{
+
+
+.distance{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 50px;
+
+}
+.beskrivel, .Distancer-text{
  background-color: #F1F9FF;
- width: 45%;
-margin: 15px;
+  margin: 15px;
   p{
     color: #2699FB;
     font-size: 15px;
     padding: 20px;
   }
+  li{
+    color: #2699FB;
+  }
+  h2{
+    color: #2699FB;
+  }
 }
+
+
+
+
 
 .form{
   display: grid;
